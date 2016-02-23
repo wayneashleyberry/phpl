@@ -17,6 +17,10 @@ cd /path/to/php
 phpl
 ```
 
+#### Motivation
+
+PHP's native linter can only lint one file at a time, and that's slow.
+
 #### License
 
 MIT © [Wayne Ashley Berry](http://www.wayneashleyberry.com)
