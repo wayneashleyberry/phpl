@@ -15,12 +15,12 @@ func main() {
 		log.Fatal("command not found: php")
 	}
 
-	files := getFiles()
+	files := getFiles(".")
 
 	jobs := make(chan string, len(files))
 	results := make(chan bool, len(files))
 
-	for w := 1; w <= 20; w++ {
+	for w := 1; w <= 10; w++ {
 		go worker(w, jobs, results)
 	}
 
@@ -35,10 +35,10 @@ func main() {
 	}
 }
 
-func getFiles() []string {
+func getFiles(root string) []string {
 	var files []string
 
-	filepath.Walk(".", func(path string, info os.FileInfo, err error) error {
+	filepath.Walk(root, func(path string, info os.FileInfo, err error) error {
 		path = strings.TrimSpace(path)
 		if isLintable(path) {
 			files = append(files, path)
