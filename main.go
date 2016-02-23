@@ -36,7 +36,7 @@ func main() {
 }
 
 func getFiles() []string {
-	files := make([]string, 0)
+	var files []string
 
 	filepath.Walk(".", func(path string, info os.FileInfo, err error) error {
 		path = strings.TrimSpace(path)
