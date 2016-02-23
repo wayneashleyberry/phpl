@@ -4,6 +4,8 @@
 
 #### Installation
 
+You can download the [latest binary](https://github.com/wayneashleyberry/phpl/releases/latest), or if you have a go workspace:
+
 ```sh
 go get github.com/wayneashleyberry/phpl
 ```
