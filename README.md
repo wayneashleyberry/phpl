@@ -16,3 +16,8 @@ go get github.com/wayneashleyberry/phpl
 cd /path/to/php
 phpl
 ```
+
+#### License
+
+[MIT](http://opensource.org/licenses/MIT) © [Wayne Ashley
+Berry](http://www.wayneashleyberry.com)
