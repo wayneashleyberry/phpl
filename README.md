@@ -19,5 +19,4 @@ phpl
 
 #### License
 
-[MIT](http://opensource.org/licenses/MIT) © [Wayne Ashley
-Berry](http://www.wayneashleyberry.com)
+MIT © [Wayne Ashley Berry](http://www.wayneashleyberry.com)
