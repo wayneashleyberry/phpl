@@ -2,6 +2,8 @@
 
 > Inspired by [phplint](https://github.com/wayneashleyberry/phplint), phpl is a concurrent php linter written in go.
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/wayneashleyberry/phpl)](https://goreportcard.com/report/github.com/wayneashleyberry/phpl)
+
 #### Installation
 
 You can download the [latest binary](https://github.com/wayneashleyberry/phpl/releases/latest), or if you have a go workspace:
