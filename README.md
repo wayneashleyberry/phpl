@@ -1,6 +1,6 @@
 ## phpl
 
-> Inspired by [phplint](https://github.com/wayneashleyberry/phplint), phpl is a concurrent php linter written in go.
+> Inspired by [phplint](https://github.com/wayneashleyberry/phplint), phpl is a concurrent php linter written in [Go](https://golang.org/).
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/wayneashleyberry/phpl)](https://goreportcard.com/report/github.com/wayneashleyberry/phpl)
 [![GoDoc](https://godoc.org/github.com/wayneashleyberry/phpl?status.svg)](https://godoc.org/github.com/wayneashleyberry/phpl)
