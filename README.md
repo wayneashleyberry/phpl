@@ -11,7 +11,12 @@ PHP's native linter can only lint one file at a time, and that's slow.
 
 #### Installation
 
-You can download the [latest binary](https://github.com/wayneashleyberry/phpl/releases/latest), or if you have a go workspace:
+The easiest way to install phpl is to download the [latest
+binary](https://github.com/wayneashleyberry/phpl/releases/latest) and place it
+in your `$PATH`.
+
+Alternatively if you have a [go
+workspace](https://golang.org/doc/code.html#Workspaces), you can use `go get`.
 
 ```sh
 go get github.com/wayneashleyberry/phpl
