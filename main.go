@@ -1,3 +1,5 @@
+// phpl is a wrapper for php's native linter which adds support for linting
+// many files concurrently.
 package main
 
 import (
