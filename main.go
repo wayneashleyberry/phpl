@@ -40,13 +40,17 @@ func main() {
 func getFiles(root string) []string {
 	var files []string
 
-	filepath.Walk(root, func(path string, info os.FileInfo, err error) error {
+	err := filepath.Walk(root, func(path string, info os.FileInfo, err error) error {
 		path = strings.TrimSpace(path)
 		if isLintable(path) {
 			files = append(files, path)
 		}
 		return err
 	})
+
+	if err != nil {
+		log.Fatal(err)
+	}
 
 	return files
 }
