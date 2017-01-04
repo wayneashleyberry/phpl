@@ -1,5 +1,5 @@
-// phpl is a wrapper for php's native linter which adds support for linting
-// many files concurrently.
+// command phpl is a wrapper for php's native linter which adds support for
+// linting many files concurrently.
 package main
 
 import (
@@ -18,9 +18,10 @@ func main() {
 	}
 
 	files := getFiles(".")
+	length := len(files)
 
-	jobs := make(chan string, len(files))
-	results := make(chan bool, len(files))
+	jobs := make(chan string, length)
+	results := make(chan bool, length)
 
 	for w := 1; w <= 10; w++ {
 		go worker(w, jobs, results)
@@ -32,7 +33,7 @@ func main() {
 
 	close(jobs)
 
-	for a := 1; a <= len(files); a++ {
+	for a := 1; a <= length; a++ {
 		<-results
 	}
 }
