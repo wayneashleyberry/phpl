@@ -1,2 +1,4 @@
-repo: wayneashleyberry/phpl
-binary_name: phpl
+release:
+  repo: wayneashleyberry/phpl
+build:
+  binary_name: phpl
