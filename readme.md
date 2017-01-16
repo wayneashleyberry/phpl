@@ -31,4 +31,4 @@ phpl
 
 #### License
 
-MIT © [Wayne Ashley Berry](https://www.wayneashleyberry.com)
+MIT © [Wayne Ashley Berry](https://wayne.cloud)
