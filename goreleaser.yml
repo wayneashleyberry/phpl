@@ -1,4 +1,6 @@
 release:
-  repo: wayneashleyberry/phpl
+  github: 
+    owner: wayneashleyberry
+    name: phpl
 build:
-  binary_name: phpl
+  binary: phpl
